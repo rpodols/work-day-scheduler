@@ -18,7 +18,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>
+        <script src="https://kit.fontawesome.com/c6a7527302.js" crossorigin="anonymous"></script>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +32,98 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="row time-block" id="time8">
+        <span class="hour col-2">8 AM
+        </span>
+        <textarea class="description col-8" id="8desc" name="time"> 
+        </textarea>
+        <button class="saveBtn col-2" id="but8"><i class="fa-solid fa-floppy-disk"></i> 
+        </button>
+      </div>
+
+      <div class="row time-block" id="time9">
+        <span class="hour col-2">9 AM
+        </span>
+        <textarea class="description col-8" id="9desc">
+        </textarea>
+        <button class="saveBtn col-2" id="but9"><i class="fa-solid fa-floppy-disk"></i>
+        </button>
+      </div>
+
+      <div class="row time-block" id="time10">
+        <span class="hour col-2">10 AM
+        </span>
+        <textarea class="description col-8" id="10desc">
+        </textarea>
+        <button class="saveBtn col-2" id="but10"><i class="fa-solid fa-floppy-disk"></i>
+        </button>
+      </div>
+
+    <div class="row time-block" id="time11">
+      <span class="hour col-2">11 AM
+      </span>
+      <textarea class="description col-8" id="11desc">
+      </textarea>
+      <button class="saveBtn col-2" id="but11"><i class="fa-solid fa-floppy-disk"></i>
+      </button>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <div class="row time-block" id="time12">
+    <span class="hour col-2">12 PM
+    </span>
+    <textarea class="description col-8" id="12desc">
+    </textarea>
+    <button class="saveBtn col-2" id="but12"><i class="fa-solid fa-floppy-disk"></i>
+    </button>
+  </div>
+
+<div class="row time-block" id="time1">
+  <span class="hour col-2">1 PM
+  </span>
+  <textarea class="description col-8" id="1desc">
+  </textarea>
+  <button class="saveBtn col-2" id="but1"><i class="fa-solid fa-floppy-disk"></i>
+  </button>
+</div>
+
+<div class="row time-block" id="time2">
+  <span class="hour col-2">2 PM
+  </span>
+  <textarea class="description col-8" id="2desc">
+  </textarea>
+  <button class="saveBtn col-2" id="but2"><i class="fa-solid fa-floppy-disk"></i>
+  </button>
+</div>
+
+<div class="row time-block" id="time3">
+  <span class="hour col-2">3 PM
+  </span>
+  <textarea class="description col-8" id="3desc">
+  </textarea>
+  <button class="saveBtn col-2" id="but3"><i class="fa-solid fa-floppy-disk"></i>
+  </button>
+</div>
+
+<div class="row time-block" id="time4">
+  <span class="hour col-2">4 PM
+  </span>
+  <textarea class="description col-8" id="4desc">
+  </textarea>
+  <button class="saveBtn col-2" id="but4"><i class="fa-solid fa-floppy-disk"></i>
+  </button>
+</div>
+
+<div class="row time-block" id="time5">
+  <span class="hour col-2">5 PM
+  </span>
+  <textarea class="description col-8" id="5desc">
+  </textarea>
+  <button class="saveBtn col-2" id="but5"><i class="fa-solid fa-floppy-disk"></i>
+  </button>
+</div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/javascript/script.js"></script>
   </body>
 </html>
