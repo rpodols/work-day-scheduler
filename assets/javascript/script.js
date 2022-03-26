@@ -4,8 +4,6 @@ var currentTime = localTime.toLocaleString(DateTime.DATETIME_MED);
 var currentHour = localTime.toLocaleString(DateTime.TIME_24_SIMPLE);
 var hourNumber = DateTime.local().hour;
 var hourCompare = parseInt(hourNumber);
-console.log(hourNumber);
-console.log(currentHour);
 
 var currentTimeEl = document.querySelector("#currentDay");
 currentTimeEl.textContent = currentTime;
